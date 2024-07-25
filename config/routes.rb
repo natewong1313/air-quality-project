@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root to: 'demo#index'
   get 'air_quality_data/index'
   get 'air_quality_data', to: 'air_quality_data#index'
   get 'predict', to: 'predict#index'

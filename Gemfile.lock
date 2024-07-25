@@ -372,6 +372,7 @@ DEPENDENCIES
   debug
   importmap-rails
   jbuilder
+  matrix (~> 0.4.2)
   numo-narray
   pg (~> 1.1)
   puma (>= 5.0)
